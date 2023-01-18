@@ -63,7 +63,7 @@ export const GithubProvider = ({ children }) => {
 
     const response = await fetch(`${GITHUB_URL}/search/users?${params}`, {
       headers: {
-        Authorization: `token ${GITHUB_TOKEN}`,
+        //Authorization: `token ${GITHUB_TOKEN}`,
       },
     })
 
@@ -80,7 +80,7 @@ export const GithubProvider = ({ children }) => {
 
     const response = await fetch(`${GITHUB_URL}/users/${login}`, {
       headers: {
-        Authorization: `token ${GITHUB_TOKEN}`,
+        //Authorization: `token ${GITHUB_TOKEN}`,
       },
     })
 
